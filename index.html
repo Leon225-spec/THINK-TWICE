@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Rossy</title>
+  <!-- Google Fonts: Great Vibes and Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" 
+    rel="stylesheet" 
+  />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- AOS CSS for scroll animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>To Rossy, with all my heart.</h1>
+    <p>You made me feel like no one else ever did.</p>
+    <button class="cta-button" id="scrollBtn">Scroll to See Why</button>
+  </section>
+
+  <!-- TYPEWRITER MESSAGE SECTION -->
+  <section class="typewriter-section" id="messageSection">
+    <h2 data-typed-text></h2>
+  </section>
+
+  <!-- FLOATING HEARTS -->
+  <i class="fas fa-heart heart" style="top: 10%; left: 20%;"></i>
+  <i class="fas fa-heart heart" style="top: 70%; left: 80%; animation-duration: 7s;"></i>
+  <i class="fas fa-heart heart" style="top: 50%; left: 40%; animation-duration: 5s;"></i>
+
+  <!-- MEMORY LANE SECTION -->
+  <section class="memory-lane" id="memoryLane" data-aos="fade-up">
+    <h2>Memory Lane</h2>
+    <div class="memory-container">
+      <div class="memory-card" data-aos="fade-up">
+        <img src="pexels-ira-kamish-12266030.jpg" alt="Virtual Memory 1" />
+        <div class="memory-text">
+          <h3>Our First Late-Night Call</h3>
+          <p>I still remember our first long conversation over the phone, where every word felt so intimate.</p>
+        </div>
+      </div>
+      <div class="memory-card" data-aos="fade-up" data-aos-delay="200">
+        <img src="pexels-melike-baran-407276327-31607114.jpg" alt="Virtual Memory 2" />
+        <div class="memory-text">
+          <h3>Late-Night Texts</h3>
+          <p>The endless exchange of messages made every night unforgettable—as if we were the only two in the world.</p>
+        </div>
+      </div>
+      <div class="memory-card" data-aos="fade-up" data-aos-delay="400">
+        <img src="pexels-seljansalim-31559028.jpg" alt="Virtual Memory 3" />
+        <div class="memory-text">
+          <h3>Starry Video Chats</h3>
+          <p>Even through a screen, those shared moments under a virtual sky spoke volumes about our connection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR STORY SECTION -->
+  <section class="our-story" data-aos="fade-up">
+    <h2>Our Story</h2>
+    <p>
+      We never met in person, yet somehow you felt closer to me than anyone else ever did. Our late-night calls, the endless messages, and those moments of genuine connection built a love that was as warm as it was unique.
+    </p>
+  </section>
+
+  <!-- PLAYLIST SECTION -->
+  <section class="playlist-section" data-aos="fade-up">
+    <h2>Our Playlist</h2>
+    <div class="playlist-controls">
+      <button id="prevSong" class="music-btn"><i class="fas fa-backward"></i></button>
+      <button id="playPause" class="music-btn"><i class="fas fa-play"></i></button>
+      <button id="nextSong" class="music-btn"><i class="fas fa-forward"></i></button>
+      <button id="uploadSongBtn" class="music-btn"><i class="fas fa-plus"></i></button>
+      <input type="file" id="uploadSong" accept="audio/*" style="display: none;">
+      <span id="songTitle" class="song-title"></span>
+    </div>
+  </section>
+
+  <!-- REASONS I LOVED YOU SECTION -->
+  <section class="reasons-section" data-aos="fade-up">
+    <h2>Why You Were Different</h2>
+    <div class="reasons-grid">
+      <div class="reason-card"><i class="fas fa-phone"></i><p>Your voice calmed my storms</p></div>
+      <div class="reason-card"><i class="fas fa-heart"></i><p>You saw me, for real</p></div>
+      <div class="reason-card"><i class="fas fa-hand-holding-heart"></i><p>You made me feel like a man</p></div>
+    </div>
+  </section>
+
+  <!-- LETTER TO ROSSY SECTION -->
+  <section class="letter-section" data-aos="fade-up">
+    <h2>Dear Rossy</h2>
+    <p>
+      I know things didn't end as we hoped, but know this: among all the people I've ever known, you made me feel deeply loved and truly seen. You became my source of light in the digital darkness, and for that, I will always cherish our moments.
+    </p>
+  </section>
+
+  <!-- PHOTO GALLERY SECTION -->
+  <section class="photo-gallery" data-aos="fade-up">
+    <h2>Our Photo Gallery</h2>
+    <div class="gallery-slider">
+      <div class="slide active">
+        <img src="IMG-20240408-WA0083.jpg" alt="Our Memory 1" />
+        <div class="caption">When you smiled on that rainy day</div>
+      </div>
+      <div class="slide">
+        <img src="IMG-20240205-WA0033.jpg" alt="Our Memory 2" />
+        <div class="caption">Sharing endless conversations late into the night</div>
+      </div>
+      <div class="slide">
+        <img src="IMG-20240408-WA0081.jpg" alt="Our Memory 3" />
+        <div class="caption">In a world of voices, yours was the only one that made my heart listen.</div>
+      </div>
+      <div class="slide">
+        <img src="pexels-dreamypixel-547114.jpg" alt="Our Memory 4" />
+        <div class="caption">If love could travel through wires, mine traveled to you every single day.</div>
+      </div>
+      <div class="slide">
+        <img src="pexels-natalie-bond-320378-1445903.jpg" alt="Our Memory 5" />
+        <div class="caption">We may have loved through screens, but every word felt like a kiss.</div>
+      </div>
+      <div class="slide">
+        <img src="IMG-20240406-WA0041.jpg" alt="Our Memory 6" />
+        <div class="caption">Even from miles away, your voice was home.</div>
+      </div>
+      <div class="slide">
+        <img src="pexels-pixabay-255483.jpg" alt="Our Memory 7" />
+        <div class="caption">You gave meaning to late-night calls and early morning smiles.</div>
+      </div>
+      <div class="slide">
+        <img src="IMG-20240405-WA0064.jpg" alt="Our Memory 8" />
+        <div class="caption">"Ours wasn’t just a love story—it was a heart connection beyond distance.</div>
+      </div>
+      <div class="slide">
+        <img src="pexels-sharefaith-491036-1231265.jpg" alt="Our Memory 9" />
+        <div class="caption">You made my phone feel like a heartbeat—always close, always real.</div>
+      </div>
+      <div class="slide">
+        <img src="pexels-visoesdomundo-2494701.jpg" alt="Our Memory 10" />
+        <div class="caption">You were my peace in a noisy world. A gentle voice in the chaos</div>
+      </div>
+      <div class="slide">
+        <img src="IMG-20240312-WA0159.jpg" alt="Our Memory 11" />
+        <div class="caption">Ndokuda nemoyo wangu wese Rosemarie</div>
+      </div>
+
+      <button class="prev-slide">&#10094;</button>
+      <button class="next-slide">&#10095;</button>
+    </div>
+  </section>
+  <!-- DREAMS & PROMISES SECTION -->
+<section class="dreams-section" data-aos="fade-up">
+    <div class="dreams-overlay">
+      <h2>Dreams &amp; Promises</h2>
+      <p>
+        Even though our story began over phone calls, every promise made and every dream shared is a testament to our deep connection. I envision a future where every promise is kept and every dream comes true.
+      </p>
+    </div>
+  </section>
+  <!-- FOOTER SECTION -->
+<footer class="site-footer">
+    <div class="footer-content" data-aos="fade-up">
+      <h3>With Love, Always</h3>
+      <p>
+        Every code, every memory, every promise is a reminder that love knows no bounds. Thank you for being the inspiration behind this journey.
+      </p>
+      <div class="social-links">
+        <a href="https://instagram.com/leonnyaramb" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com/Leon Nyaramb" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://wa.me/263783630544" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div class="footer-credit">
+      <small>&copy; 2025 For Rossy. Crafted with passion. By LEON NYARAMB</small>
+    </div>
+  </footer>
+  
+
+  <!-- JS Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
