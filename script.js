@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let playlist = [
       "Blaz_vebhosvo(128k).m4a",
       "Chord_Overstreet_-_Hold_On__Lyric_Video_(128k).m4a",
-      "Ed_Sheeran_-_Shivers_[Official_Video](128k).m4a",
       "Ed_Sheeran_-_Perfect__Official_Music_Video_(128k).m4a",
       "Ed_Sheeran_-_Happier__Official_Music_Video_(128k).m4a"
     ];
