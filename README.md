@@ -1,2 +1,2 @@
-# THINK-TWICE
-Comparing platform
+# Rossy
+For Rosemarie
